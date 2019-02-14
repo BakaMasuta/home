@@ -1,22 +1,47 @@
-<html>
 <style>
+
   body {
-    background-repeat: repeat;
+    width: 100vw;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-color: #659DBD;
+  }
+  .thinborder{
+    border-color: black;
+    border-width: 20px;
+    border-style: solid;
   }
 
   #heading {
-    font-size: 75vmin;
+    font-size: 50vh;
     font-family: impact;
+    background-image:url(https://bakamasuta.files.wordpress.com/2017/02/baka-ouji-profile1.png);
   }
 
-  #about {}
+  #about {
+    width: 98%;
+    padding-left: 10px;
+  }
 
-  #shade {
+  #shade1 {
     height: 100vh;
-    width: 92vw;
+    width: 76vw;
     background-color: #FFFFFF;
     opacity: .8;
-    margin: auto;
+        margin-left: 3vw;
+  }
+   #shade2 {
+    height: 100vh;
+    width: 18vw;
+    background-color: #FFF;
+     margin-right: 3vw;
+     border-left: 1px;
+       border-color:black;
+
+  }
+  #bothshade{
+    display: flex;
+    flex-direction: row;
   }
 
   #navbar {
@@ -26,23 +51,65 @@
   a:hover {
     color: #FF2E2E;
   }
+  
+  #sidebar{
+    float: right;
+    width: 98%;
+    text-align: center;
+    padding: 10px;
+  }
+  #content{
+    font-color: #757575;
+  }
+  h1{
+    font-family: airial-black;
+    font-size: 80px;
+  }
+  p1{
+    font-family: arial;
+    Font-size: 20px;
+  }
 </style>
 
-<body background="https://bakamasuta.files.wordpress.com/2017/02/phpukxvsvpm.jpg">
-
-  <center>
-    <div id="heading">
+<center>
+<head>
+      <div id="heading">
       Baka Masuta
     </div>
-    <div id="navbar" </div>
-  </center>
-  <div id="shade">
+</head>
+</center> 
 
-    <div id="about">
+<body>
+
+  <center>
+
+    <div id="navbar">
+    
     </div>
+  </center>
+  
+  <div id="content">
+  <div id="bothshade">
+  
+  <div id="shade1">
+    <div id="about">
+      <h1>
+      About  
+      </h1>
+      <p1>
+My name is Baka Masuta and I'm<em> <strong>bored</strong></em>. This is extremely lucky for you as you get to witness the moronic things that are born from that boredom. I was using this website for a blog 
+      </p1>
+        </div>
+  </div>
+  <div class="thinbroder" id="shade2">
+    <div id="sidebar">
+      this is where the links go ahhhhhhh hhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhh
+    </div>
+  </div>
+    
+  </div>
 
     <div id="footer">
     </div>
   </div>
 </body>
-</html>
